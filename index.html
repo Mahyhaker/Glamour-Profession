@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh Jo-Ken-Po</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Imagem do símbolo acima do título -->
+        <img src="imagens/simbolo.png" alt="Yu-Gi-Oh Logo" class="logo">
+
+        <h1>Yu-Gi-Oh Jo-Ken-Po</h1>
+        <div class="scoreboard">
+            <div class="score">
+                <h2>Você</h2>
+                <span id="playerScore">0</span>
+            </div>
+            <div class="score">
+                <h2>Inimigo</h2>
+                <span id="computerScore">0</span>
+            </div>
+        </div>
+        <button id="startButton">Start</button>
+        <div id="result">Escolha uma carta para jogar!</div>
+        <div class="choices">
+            <button class="choice" data-choice="dragao">
+                <img src="imagens/dragao.png" alt="Dragão" class="choice-img">
+                Dragão
+            </button>
+            <button class="choice" data-choice="mago">
+                <img src="imagens/mago_negro.png" alt="Mago Negro" class="choice-img">
+                Mago Negro
+            </button>
+            <button class="choice" data-choice="dragon_slayer">
+                <img src="imagens/dragon_slayer.png" alt="Dragon Slayer" class="choice-img">
+                Dragon Slayer
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
